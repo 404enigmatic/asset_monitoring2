@@ -60,8 +60,7 @@
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="asset-category.html">Asset Category</a>
                                     <a class="nav-link" href="business-area.html">Business Area</a>
-                                    
-
+                                    <a class="nav-link" href="status.html">Status</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
@@ -154,22 +153,24 @@
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
-                                            <th>Pic</th>
+                                            <th>Photo</th>
                                             <th>Asset Category</th>
                                             <th>Asset No.</th>
                                             <th>Asset Description</th>
                                             <th>Capt. Date</th>
-                                            <th>Location</th>
+                                            <th>Business Area</th>
+                                            <th>Cost Center</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>Pic</th>
+                                            <th>Photo</th>
                                             <th>Asset Category</th>
                                             <th>Asset No.</th>
                                             <th>Asset Description</th>
                                             <th>Capt. Date</th>
-                                            <th>Location</th>
+                                            <th>Business Area</th>
+                                            <th>Cost Center</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
