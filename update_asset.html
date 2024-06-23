@@ -50,28 +50,27 @@
 <body>
 
 <div class="form-container">
-    <h2>Form Tambah Data Inventory</h2>
-    <form action="controller/insert_asset.php" method="post" enctype="multipart/form-data">
+    <h2>Form Update Data Inventory</h2>
+    <form action="controller/update_asset.php" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="photo">Photo:</label>
             <!-- <input type="file" id="photo" name="photo" accept="image/*" > -->
-            <input type="file" name="fileToUpload" id="fileToUpload" ><br><br>
+            <input type="file" name="fileToUpload" id="fileToUpload" required><br><br>
         </div>
         <div class="form-group">
-             <div class="form-group">
-            <label for="kategori_asset">Asset Category:</label>
-            <select name="kategori_asset" id="kategori_asset">
-            <option value="IT DEVICE COMPUTER">IT DEVICE COMPUTER</option>
-            <option value="OFFICE EQUIPMENT">OFFICE EQUIPMENT</option>
-            <option value="OFFICE FURNITURE">OFFICE FURNITURE</option>
-            <option value="SOS LAB EQUIPMENT">SOS LAB EQUIPMENT</option>
+            <label for="asset_category">Asset Category:</label>
+            <!-- <input type="text" id="kategori_asset" name="kategori_asset" required> -->
+            <select name="cars" id="cars">
+            <option value="IT_DEVICE_COMPUTER">IT DEVICE COMPUTER</option>
+            <option value="OFFICE_EQUIPMENT">OFFICE EQUIPMENT</option>
+            <option value="OFFICE_FURNITURE">OFFICE FURNITURE</option>
+            <option value="SOS_LAB_EQUIPMENT">SOS LAB EQUIPMENT</option>
             <option value="TOOLS">TOOLS</option>
-            <option value="VEHICLE POOL">VEHICLE POOL</option>
-            <option value="VEICLE ALLOCATED">VEHICLE ALLOCATED</option>
+            <option value="VEHICLE_POOL">VEHICLE POOL</option>
+            <option value="VEICLE_ALLOCATED">VEHICLE ALLOCATED</option>
             <option value="WAREHOUSE">WAREHOUSE/GO-DOWN EQUIPMENT</option>
-            <option value="WORKSHOP EQUIPMENT">WORKSHOP EQUIPMENT</option>
+            <option value="WORKSHOP">WORKSHOP EQUIPMENT</option>
             </select>
-        </div>
         </div>
         <div class="form-group">
             <label for="asset_no">Asset No.:</label>
