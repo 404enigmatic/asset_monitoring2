@@ -1,0 +1,38 @@
+*,
+HTML{
+    margin: 0;
+    PADDING:0;
+}
+
+body {
+    background-color:orange; 
+}
+.NAVBAR {
+    BACKGROUND-COLOR:orange; 
+    width: 100%; 
+    HEIGHT: 60PX;
+}
+.UL-NAVBAR {
+    background-color:white;
+    DISPLAY: FLEX;
+    height: 100PX;
+    justify-content: center;
+    align-items: CENTER; 
+}
+.LI-NAVBAR {
+    border: 1px solid black;
+    LIST-STYLE: NONE; 
+    PADDING: 1PX;
+    MARGIN: 5PX;
+    COLOR: black;  
+}
+.CONTENT{
+    BACKGROUND-COLOR:BLACK;
+    display: flex;
+    justify-content: left;
+    align-items: LEFT;
+}
+.vid-CONTENT{
+    WIDTH: 10% ;
+    HEIGHT: 15% ;
+}
